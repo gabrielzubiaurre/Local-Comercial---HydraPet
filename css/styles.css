@@ -42,6 +42,13 @@ header {
     color: #ffffff;
 }
 
+.card-img-limit {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    object-position: center;
+}
+
 /* Footer */
 footer {
     background-color: #ffffff;
