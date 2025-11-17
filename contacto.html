@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HydraPet - Contacto</title>
+
+    <!-- Bootstrap 5 solo CSS -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="container py-3 d-flex flex-wrap align-items-center justify-content-between">
+        <a href="index.html" class="d-flex align-items-center text-decoration-none mb-2 mb-md-0">
+            <img src="media/icons/logo.svg" alt="HydraPet" class="logo-blanco me-2" />
+            <span class="fw-bold lh-1 nombre-local">
+                Hydra<br>Pet
+            </span>
+        </a>
+
+        <nav>
+            <ul class="list-unstyled d-flex flex-wrap gap-2 mb-0">
+                <li><a href="index.html" class="btn btn-sm btn-outline-light">Inicio</a></li>
+                <li><a href="productos.html" class="btn btn-sm btn-outline-light">Productos</a></li>
+                <li><a href="promociones.html" class="btn btn-sm btn-outline-light">Promociones</a></li>
+                <li><a href="servicios.html" class="btn btn-sm btn-outline-light">Servicios</a></li>
+                <li><a href="contacto.html" class="btn btn-sm btn-light">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- CONTENIDO PRINCIPAL -->
+<main>
+
+    <!-- Título página -->
+    <section class="py-4">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center gap-3">
+                <img src="media/icons/logo.svg" alt="HydraPet"
+                     style="height:70px; width:auto; filter:none;">
+                <h1 class="mb-0 fw-bold" style="color: var(--c-primary); font-size:2.5rem;">
+                    HydraPet
+                </h1>
+            </div>
+
+            <p class="mt-3">
+                Aquí tenés todos los datos de nuestro local para poder visitarnos cuando quieras, así como la información de contacto por si preferís comunicarte a distancia.
+                También podés usar el formulario que encontrás más abajo para dejarnos tu consulta y recibir una respuesta de nuestro equipo; de esta forma, nosotros nos ponemos en contacto con vos en el momento que te resulte más cómodo.
+            </p>
+        </div>
+    </section>
+
+    <!-- Formulario + Información -->
+    <section class="py-4">
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- Información del local -->
+                <div class="col-12 col-md-5">
+                    <h2 class="h4 mb-3" style="color: var(--c-primary);">Información del local</h2>
+
+                    <p class="mb-2">
+                        <strong>Dirección:</strong><br>
+                        El Nexo Open Mall<br>
+                        Av. Caseros 2517, CABA
+                    </p>
+
+                    <p class="mb-2">
+                        <strong>Teléfono:</strong><br>
+                        (11) 3929-9459
+                    </p>
+
+                    <p class="mb-2">
+                        <strong>Email:</strong><br>
+                        info@hydrapet.com
+                    </p>
+
+                    <p class="mb-0">
+                        Te esperamos en nuestro local para asesorarte personalmente y ayudarte
+                        a encontrar todo lo que necesitás para tu acuario.
+                    </p>
+                </div>
+
+                <!-- Formulario -->
+                <div class="col-12 col-md-7">
+                    <h2 class="h4 mb-3" style="color: var(--c-primary);">Envíanos tu consulta</h2>
+
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Tu nombre completo" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="tuemail@example.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Teléfono</label>
+                            <input type="text" class="form-control" placeholder="(11) 3929-9459">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Mensaje</label>
+                            <textarea class="form-control" rows="5" placeholder="Escribinos tu consulta aquí..." required></textarea>
+                        </div>
+
+                        <div class="text-end">
+                            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="border-top py-3">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2">
+        <span class="small">© 2025 HydraPet — Todos los derechos reservados.</span>
+
+        <div class="d-flex align-items-center gap-3">
+            <span class="small d-flex align-items-center gap-1">
+                <img src="media/icons/ubicacion.svg" alt="Ubicación" style="width:18px; height:18px;">
+                El Nexo Open Mall - Av. Caseros 2517, CABA
+            </span>
+            <a href="#" class="d-inline-flex align-items-center text-decoration-none">
+                <img src="media/icons/instagram.svg" alt="Instagram" style="width:22px; height:22px;">
+            </a>
+            <a href="#" class="d-inline-flex align-items-center text-decoration-none">
+                <img src="media/icons/whatsapp.svg" alt="WhatsApp" style="width:22px; height:22px;">
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
